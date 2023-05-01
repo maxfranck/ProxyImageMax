@@ -21,11 +21,11 @@ public class RealImage implements Image {
     // Implementação do método de exibição da imagem
     @Override
     public void display() {
-        System.out.println("Displaying " + filename);
+        System.out.println("Exibindo " + filename);
     }
 
     // Método privado que simula o carregamento da imagem do disco
     private void loadFromDisk() {
-        System.out.println("Loading " + filename + " from disk");
+        System.out.println("Carregando " + filename + " do disco");
     }
 }
